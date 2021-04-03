@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>url to mp3</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="app">
+		<input v-model="url">
+		<button @click="onayla">Onayla</button>
+		<br><br><br>
+
+		<iframe :src="link" width="100%" height="100px" scrolling="no" style="border:none;"></iframe>
+
+		
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
